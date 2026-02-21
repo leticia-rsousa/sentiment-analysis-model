@@ -1,0 +1,43 @@
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# === Virtual Environments ===
+.venv/
+venv/
+env/
+
+# === Model Files ===
+*.joblib
+*.pkl
+*.pickle
+
+# === Cache and Temp Files ===
+*.log
+*.tmp
+*.cache/
+.cache/
+tmp/
+temp/
+
+# === VSCode ===
+.vscode/
+
+# === PyCharm ===
+.idea/
+
+# === System Files ===
+.DS_Store
+Thumbs.db
+
+# === Build / Distribution ===
+build/
+dist/
+*.egg-info/
+
+# === Data Files (optional) ===
+# Uncomment if you do NOT want to version datasets:
+# *.csv
